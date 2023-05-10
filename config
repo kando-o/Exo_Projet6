@@ -1,0 +1,25 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[remote "origin"]
+	url = https://github.com/OpenClassrooms-Student-Center/Utilisez-des-design-patterns-en-JavaScript.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "main"]
+	remote = origin
+	merge = refs/heads/main
+[branch "partie-4/quiz/question-5"]
+	remote = origin
+	merge = refs/heads/partie-4/quiz/question-5
+[branch "partie-1/quiz/question-4"]
+	remote = origin
+	merge = refs/heads/partie-1/quiz/question-4
+[branch "partie-2/chapitre-2-debut"]
+	remote = origin
+	merge = refs/heads/partie-2/chapitre-2-debut
+[branch "partie-2/chapitre-2-exercice"]
+	remote = origin
+	merge = refs/heads/partie-2/chapitre-2-exercice
